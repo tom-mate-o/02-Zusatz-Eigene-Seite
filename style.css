@@ -27,11 +27,26 @@ body{
     width: 70vw;
     height: auto;
     display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto auto auto;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 8px 24px rgba(17,17,26,0.1), 0px 16px 56px rgba(17,17,26,0.1), 0px 24px 80px rgba(17,17,26,0.1);
+}
+
+.profile-container{
+    width: 100em;
+    height: auto;
+    display: grid;
     grid-template-columns: 30% auto;
     grid-template-rows: auto auto auto;
     background-color: white;
     border-radius: 25px;
     box-shadow: 0px 8px 24px rgba(17,17,26,0.1), 0px 16px 56px rgba(17,17,26,0.1), 0px 24px 80px rgba(17,17,26,0.1);
+}
+
+.profile-container>div{
+    border: solid 1px red;
 }
 
 
@@ -43,14 +58,29 @@ body{
 .navigation{
     font-size: x-large;
     font-weight: bold;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     
 }
 
-.navigation ul{
-    list-style: none;
+
+.navbutton{
+    border-radius: 15px;
+    height: auto;
+    width: 90%;
+    padding: 10px;
+    background-color: var(--gelb);
+    border: none;
+    font-weight: bold;
 }
 
+.navbutton:hover{
+    background-color: var(--pink);
+    border: none;
+    
+    font-weight: bold;
+}
 
 .login{
     width: 100%;
@@ -102,6 +132,11 @@ body{
     max-width: 50vw;
 }
 
+.carousel-center{
+    display: flex;
+    justify-content: center;
+}
+
 .introtext{
     padding-top: 10px;
     text-align: center;
@@ -110,6 +145,7 @@ body{
 h2{
     padding-bottom: 10px;
 }
+
 
 @media only screen and (max-width:600px) {
 
@@ -172,6 +208,7 @@ h2{
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 0;
 
 }
 

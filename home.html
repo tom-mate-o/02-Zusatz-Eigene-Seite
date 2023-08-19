@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DUCKSTERGRAM - Social Media for Coding Ducks</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_profile.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body id="bootstrap-Over">
 
     <div class="container">
         <div class="header">
@@ -28,11 +28,9 @@
             <div class="logincard">
                 
               <div class="navigation">
-                <ul>
-                  <a href="home.html"><li>Home</li></a>
-                  <a href="pricing.html"><li>Pricing</li></a>
-                  <a href="index.html"><li>Duck out</li></a>
-                </ul>
+                    <a href="home.html"><button class="navbutton">Profile</button></a>
+                    <a href="pricing.html"><button class="navbutton">Pricing</button></a>
+                    <a href="index.html"><button class="navbutton">Duck out</button></a>
               </div>
 
 
@@ -40,29 +38,76 @@
         </div>
 
         <div class="main">
-            <div class="carousel">
-                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2500">
-                            <img src="/images/enten1.jpg" class="d-block w-100" alt="Bild von Freepik">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2500">
-                            <img src="/images/enten2.jpg" class="d-block w-100" alt="Bild von Freepik">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="2500">
-                            <img src="/images/enten3.jpg" class="d-block w-100" alt="Bild von rawpixel.com auf Freepik">
-                        </div>
-                    </div>
+            
+            <div class="profile-container">
+                
+                <div class="profile-info">
+                    <h3>Rubber</h3>
+                    <h4>van der Duck</h4>
+
+                    <p>Nord-Holland</p>
+
+                    <p>142 Friends in common</p>
                 </div>
+
+                <div class="profile-picture">
+                    <img class="avatar" src="/images/duck_avatar.jpg">
+                </div>
+
+                <div class="profile-text">
+                    <p>🦆🎩 Code Quacker Extraordinaire! 🌟</p>
+<p>📝 Solving bugs and glitches with a side of quacktastic wisdom. Debugger by day, stylish ducker by night. 💻🌙</p>
+<p>🔍 Always there to lend a feathered ear when your code is acting fowl. Just add coffee and watch the magic happen! ☕✨</p>
+<p>🤖 Fluent in binary and duck typing. Expert in rubber-duck debugging – my quacks will crack your code conundrums! 🐥💬</p>
+<p>🚀 Launching rockets of creativity and wading through seas of syntax. Quack-a-doodle-do, let's make some code dreams come true! 🚀🎨</p>
+<p>#DuckAndCode #QuacktasticAdventures #RubberDuckDebugging</p>
+
+                </div>
+
+                <div class="picture-feed">
+                    <h2>Photo Albums</h2>
+                    <div class="card-deck">
+                        <div class="card">
+                          <img class="card-img-top" src="/images/enten1.jpg" alt="Card image cap">
+                          <div class="card-body-costum">
+                            <h5 class="card-title">Family Swim '23</h5>
+                            <p class="card-text">My whole family took a swim together. With all my siblings. To honor our brother Dave, who got eaten by a fox.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="/images/enten2.jpg" alt="Card image cap">
+                          <div class="card-body-costum">
+                            <h5 class="card-title">Bathing Time</h5>
+                            <p class="card-text">Bubble Bath Fun with my two little ducklings. So ducking cute.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 weeks ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="/images/enten3.jpg" alt="Card image cap">
+                          <div class="card-body-costum">
+                            <h5 class="card-title">Business Meeting '23</h5>
+                            <p class="card-text">Some group photos and other snapshots from this years ducking boring business meeting...</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 months ago</small></p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                
+            
+
             </div>
 
-            <p class="introtext">Welcome to DUCKSTERGRAM - the exclusive pond where Coding Rubberducks rule the binary waves! 🦆 At DUCKSTERGRAM, we're all about quacking in code and rescuing drowning developers in a sea of bugs. Whether you're a fledgling in the coding cosmos or a seasoned quacker, you'll find feathered friends who share your passion for debugging and heaving ho-hum howls.</p>
+
+
         </div>
 
         
 
         <div class="footer">
             <p><b>DUCKSTERGRAM</b> - A social media platform for Rubberducks<br/>©2023 by Tom Kra for codingschule</p>
+        </div>
         </div>
 </body>
 
