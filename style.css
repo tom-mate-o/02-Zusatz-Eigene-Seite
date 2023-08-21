@@ -16,6 +16,8 @@
 body{
     padding: 0;
     background-image: linear-gradient(to right top, #82e1df, #68d8f9, #80c8ff, #b7b1ff, #ea96df);
+    background-size: cover;
+    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
     display: flex;
