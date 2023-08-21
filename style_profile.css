@@ -47,7 +47,7 @@ body{
 }
 
 .profile-container{
-    width: 50vw;
+    width: 45vw;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
